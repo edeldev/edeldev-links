@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #161616;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  padding: 8rem 2rem;
+  background: var(--background);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(180deg, #ffffff, #adadad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff66 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #14eeff !important;
+}
