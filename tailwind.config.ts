@@ -16,7 +16,7 @@ export default {
         secondary: "#14EEFF",
         "bg-box-container": "#1C1C1C",
         "bg-box": "#282828",
-        "text-icon": "#3E3E3E",
+        "text-icon": "#ACACAC",
       },
       keyframes: {
         shine: {

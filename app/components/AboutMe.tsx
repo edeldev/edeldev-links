@@ -28,7 +28,7 @@ export const AboutMe = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.8 }}
       >
-        <p className="text-primary text-sm md:text-medium md:px-[6rem] text-center">
+        <p className="text-primary text-sm md:text-medium text-center text-balance">
           Diseño experiencias digitales que elevan marcas con interfaces
           limpias, mensajes impactantes y contenido que conecta
         </p>
