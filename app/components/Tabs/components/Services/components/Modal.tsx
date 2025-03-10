@@ -1,6 +1,5 @@
 "use client";
 import { Fragment } from "react";
-import Link from "next/link";
 import { MODAL_SERVICES } from "@/app/utils/ModalServices";
 import {
   Modal,
@@ -83,14 +82,18 @@ export const ModalService = ({ isOpen, onClose }: IModalService) => {
               <Button color="danger" variant="light" onPress={onClose}>
                 Close
               </Button>
-              <Link
-                href="https://wa.me/8123697420/?text=Hola,%20quiero%20un%20proyecto%20web"
-                target="_blank"
+              <Button
+                color="secondary"
+                className="text-black font-bold"
+                onPress={() =>
+                  window.open(
+                    "https://wa.me/8123697420/?text=Hola,%20quiero%20un%20proyecto%20web",
+                    "_blank"
+                  )
+                }
               >
-                <Button color="secondary" className="text-black font-bold">
-                  LO QUIERO
-                </Button>
-              </Link>
+                LO QUIERO
+              </Button>
             </ModalFooter>
           </Fragment>
         )}

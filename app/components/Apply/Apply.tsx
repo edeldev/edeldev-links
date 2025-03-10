@@ -16,7 +16,7 @@ export const Apply = () => {
 
         <p className="text-primary hidden md:block">→</p>
         <Link
-          href="https://wa.me/8123697420/?text=Hola,%20quiero%completar%el%formulario"
+          href="https://wa.me/8123697420/?text=Hola,%20quiero%20completar%20el%20formulario"
           target="_blank"
           className="px-6 py-2 bg-[#222222] rounded-lg hover:bg-[#333] cursor-pointer transition-all duration-500"
         >
