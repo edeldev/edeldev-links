@@ -1,17 +1,18 @@
-"use client";
-import { Tabs, Tab, useDisclosure } from "@heroui/react";
-import { ModalService } from "./components/Services/components";
-import { AnimatedLinks, Carrusel, WebDeveloper } from "./components";
+import { Tabs, Tab } from "@heroui/react";
+import { AnimatedLinks, Carrusel, Services } from "./components";
 import { LINKS } from "@/app/utils/links";
+import { SERVICES } from "@/app/utils/Services";
 
 export const TabsInfo = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <div className="flex w-full flex-col mt-6">
       <Tabs aria-label="Options">
         <Tab key="servicios" title="Servicios">
-          <ModalService isOpen={isOpen} onClose={onClose} />
-          <WebDeveloper onOpen={onOpen} />
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+            {SERVICES.map((service) => (
+              <Services key={service.id} service={service} />
+            ))}
+          </div>
         </Tab>
         <Tab key="proyectos recientes" title="Proyectos recientes">
           <Carrusel />
