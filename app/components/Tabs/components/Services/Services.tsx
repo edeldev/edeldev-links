@@ -17,7 +17,9 @@ export const Services = ({ service }: IServiceComponent) => {
   return (
     <Fragment>
       <ModalService isOpen={isOpen} onClose={onClose} service={service} />
-      <Card className="col-span-6 py-4">
+      <Card
+        className={`col-span-6 py-4 ${service.id === 2 ? "bg-[#0e0d0d]" : ""}`}
+      >
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <div className="mb-2 flex items-center">{renderStars()}</div>
           <small className="text-default-500">{service.sub}</small>
