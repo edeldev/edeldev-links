@@ -4,6 +4,7 @@ import PROYECT3 from "@/public/proyect3.webp";
 import PROYECT4 from "@/public/proyect4.webp";
 import PROYECT5 from "@/public/proyect5.webp";
 import PROYECT6 from "@/public/proyect6.webp";
+import PROYECT7 from "@/public/proyect7.webp";
 import { TCarruselProyect } from "./types";
 
 export const CARRUSEL_PROYECTS: TCarruselProyect[] = [
@@ -15,33 +16,39 @@ export const CARRUSEL_PROYECTS: TCarruselProyect[] = [
   },
   {
     id: 2,
-    title: "Portafolio Personal",
+    title: "Arquitectura",
     image: PROYECT2,
-    link: "https://edeldev.vercel.app",
+    link: "https://parrallax-arquitectura.vercel.app",
   },
   {
     id: 3,
-    title: "Ledbeey",
+    title: "Portafolio Personal",
     image: PROYECT3,
-    link: "https://ledbeey.vercel.app",
+    link: "https://edeldev.vercel.app",
   },
   {
     id: 4,
-    title: "EdelFilms",
+    title: "Ledbeey",
     image: PROYECT4,
-    link: "https://edelfilms.netlify.app",
+    link: "https://ledbeey.vercel.app",
   },
   {
     id: 5,
-    title: "Udemy Clone",
+    title: "EdelFilms",
     image: PROYECT5,
+    link: "https://edelfilms.netlify.app",
+  },
+  {
+    id: 6,
+    title: "Udemy Clone",
+    image: PROYECT6,
     link: "https://demyclone.netlify.app",
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Edeldev - portafolio antiguo",
-    image: PROYECT6,
+    image: PROYECT7,
     link: "https://edeldev.netlify.app",
   },
 ];
