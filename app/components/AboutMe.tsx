@@ -11,7 +11,7 @@ export const AboutMe = () => {
       >
         <h1 className="text-gradient font-bold text-2xl">Edeldev</h1>
         <h2 className="text-sm text-primary">
-          Web developer & content creator
+          Desarrollador web & creador de contenido
         </h2>
       </motion.div>
 
@@ -29,8 +29,9 @@ export const AboutMe = () => {
         transition={{ duration: 0.6, delay: 0.8 }}
       >
         <p className="text-primary text-sm md:text-medium text-center text-balance">
-          Diseño experiencias digitales que elevan marcas con interfaces
-          limpias, mensajes impactantes y contenido que conecta
+          Te ayudo a crear una página web moderna, atractiva y optimizada para
+          convertir visitantes en clientes, con enfoque en diseño responsivo,
+          usabilidad y resultados.
         </p>
       </motion.div>
     </div>
