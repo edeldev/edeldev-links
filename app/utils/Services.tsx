@@ -7,6 +7,8 @@ export const SERVICES: IService[] = [
     sub: "Diseño 100% personalizado",
     title: "Landing Page",
     imageService: "/service-web.webp",
+    altImageService:
+      "Diseño profesional de landing page enfocada en conversiones y generación de leads",
     titleModal: "Landing page completo",
     linkModal:
       "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20landing%20page",
@@ -68,6 +70,8 @@ export const SERVICES: IService[] = [
     sub: "Diseño 100% personalizado",
     title: "Página Web",
     imageService: "/fitness.webp",
+    altImageService:
+      "Desarrollo de sitio web multipágina con diseño moderno y navegación intuitiva",
     titleModal: "Página web completo",
     linkModal:
       "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20página%20web",

@@ -10,7 +10,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Edeldev | Links",
-  description: "Sitio web de enlaces",
+  description:
+    "Diseño y desarrollo de páginas web modernas, responsivas y optimizadas para atraer clientes. ¡Lleva tu presencia digital al siguiente nivel!",
 };
 
 export default function RootLayout({
@@ -19,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="es" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased`}>
         <HeroProvider>
           <main className="dark text-foreground bg-background">{children}</main>

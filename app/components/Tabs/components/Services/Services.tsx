@@ -27,7 +27,7 @@ export const Services = ({ service }: IServiceComponent) => {
         </CardHeader>
         <CardBody className="overflow-visible py-2 items-center">
           <Image
-            alt="Card background"
+            alt={service.altImageService}
             className="object-cover rounded-xl"
             src={service.imageService}
             width={270}

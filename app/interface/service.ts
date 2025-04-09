@@ -4,6 +4,7 @@ export interface IService {
   sub: string;
   title: string;
   imageService: string;
+  altImageService: string;
   titleModal: string;
   linkModal: string;
   features: TFeature[];
