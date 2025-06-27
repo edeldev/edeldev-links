@@ -5,7 +5,7 @@ export const LINKS: TLink[] = [
   {
     id: 1,
     title: "Website",
-    link: "https://edeldev-studio.vercel.app",
+    link: "https://edelhub.vercel.app",
     icon: <IconWorld size={16} stroke={1} className="text-secondary" />,
   },
   {

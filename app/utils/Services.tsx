@@ -53,7 +53,7 @@ export const SERVICES: IService[] = [
         colorText: "text-[#41C3F5]",
         variant: "flat",
         icon: <IconDeviceDesktopDollar size={18} stroke={1} />,
-        text: "2,500 - 3,500 MXN",
+        text: "3,500 - 4,500 MXN",
       },
       {
         id: 2,
@@ -116,7 +116,7 @@ export const SERVICES: IService[] = [
         colorText: "text-[#41C3F5]",
         variant: "flat",
         icon: <IconDeviceDesktopDollar size={18} stroke={1} />,
-        text: "3,500 - 4,500 MXN",
+        text: "4,500 - 5,500 MXN",
       },
       {
         id: 2,
@@ -124,7 +124,7 @@ export const SERVICES: IService[] = [
         colorText: "text-[#41C3F5]",
         variant: "flat",
         icon: <IconClockHour3 size={18} stroke={1} />,
-        text: "4 - 7 días",
+        text: "4 - 8 días",
       },
     ],
   },

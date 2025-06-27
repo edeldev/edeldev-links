@@ -10,9 +10,9 @@ import { TCarruselProyect } from "./types";
 export const CARRUSEL_PROYECTS: TCarruselProyect[] = [
   {
     id: 1,
-    title: "Edeldev Studio",
+    title: "EdelHub",
     image: PROYECT1,
-    link: "https://edeldev-studio.vercel.app",
+    link: "https://edelhub.vercel.app",
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const CARRUSEL_PROYECTS: TCarruselProyect[] = [
     id: 4,
     title: "Ledbeey",
     image: PROYECT4,
-    link: "https://ledbeey.vercel.app",
+    link: "",
   },
   {
     id: 5,
