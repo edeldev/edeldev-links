@@ -4,8 +4,10 @@ import { StaticImageData } from "next/image";
 export type TLink = {
   id: number;
   title: string;
+  caption?: string;
   link: string;
   icon: ReactNode;
+  bgColor: string;
 };
 
 export type TAvatar = {
