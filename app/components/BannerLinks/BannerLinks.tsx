@@ -18,14 +18,23 @@ export const BannerLinks = () => {
             Plantilla de Cotización Web Profesional
           </h4>
           <div className="flex flex-col gap-2">
-            <span className="text-sm font-bold">MXN 100</span>
-            <a
-              href="https://wa.me/8123697420/?text=Hola,%20quiero%20comprar%20la%20plantilla"
-              target="_blank"
-              className="px-5 py-1 bg-white rounded-lg text-black text-center hover:bg-white/80 transition-colors duration-300"
-            >
-              Comprar ahora
-            </a>
+            <span className="text-sm font-bold">USD 7.00</span>
+            <div className="flex flex-wrap sm:flex-nowrap gap-2">
+              <a
+                href="https://www.canva.com/design/DAGvV9_-RCM/7_zJv-OHLjH01TEtT4YdwA/view?utm_content=DAGvV9_-RCM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h327247bd1b"
+                target="_blank"
+                className="w-full px-5 py-1 bg-bg-box rounded-lg text-white text-center hover:bg-bg-box/80 transition-colors duration-300"
+              >
+                Vista previa
+              </a>
+              <a
+                href="https://wa.me/8123697420/?text=Hola,%20quiero%20comprar%20la%20plantilla"
+                target="_blank"
+                className="w-full px-5 py-1 bg-white rounded-lg text-black text-center hover:bg-white/80 transition-colors duration-300"
+              >
+                Comprar
+              </a>
+            </div>
           </div>
         </div>
       </div>
