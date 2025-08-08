@@ -2,7 +2,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import { motion, useInView } from "framer-motion";
 import { IAnimatedItem, IAnimatedList } from "./types";
-import { Tooltip } from "@heroui/react";
 
 const AnimatedItem = ({
   children,
@@ -120,16 +119,23 @@ export const AnimatedLinks = ({
               }
             }}
           >
-            <a
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`flex items-center gap-2 text-primary p-4 bg-bg-box rounded-lg transition-colors hover:bg-[#333] ${itemClassName}`}
-            >
-              {item.icon}
-              <Tooltip content={item.title}>
-                <p className="text-primary m-0 truncate">{item.title}</p>
-              </Tooltip>
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
+              <div
+                className={`bg-bg-box p-2 rounded-lg flex justify-start md:justify-between items-center gap-5 md:gap-0 transition-colors hover:bg-[#333] ${itemClassName}`}
+              >
+                <div className="flex-0 md:flex-1 flex ">
+                  <div
+                    className={`${item.bgColor} p-2 rounded-full inline-block`}
+                  >
+                    {item.icon}
+                  </div>
+                </div>
+                <div className="text-start md:text-center">
+                  <h3 className="md:text-white font-semibold">{item.title}</h3>
+                  <span className="text-primary text-sm">{item.caption}</span>
+                </div>
+                <div className="flex-1 hidden md:flex"></div>
+              </div>
             </a>
           </AnimatedItem>
         ))}

@@ -33,6 +33,10 @@ export const AboutMe = () => {
           convertir visitantes en clientes, con enfoque en diseño responsivo,
           usabilidad y resultados.
         </p>
+
+        <h3 className="text-xl md:text-2xl text-gradient text-center md:text-start font-bold mt-10">
+          ¡Vamos a crear juntos!
+        </h3>
       </motion.div>
     </div>
   );

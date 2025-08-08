@@ -2,7 +2,7 @@
 import Image from "next/image";
 import EDELDEV from "@/public/EDELDEV-DARK.webp";
 import { motion } from "framer-motion";
-import { AboutMe, Apply, FAQ, TabsInfo } from "./components";
+import { AboutMe, BannerLinks, FAQ, TabsInfo } from "./components";
 
 const Home = () => {
   return (
@@ -27,14 +27,6 @@ const Home = () => {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1.0 }}
-        >
-          <Apply />
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.2 }}
         >
           <TabsInfo />
@@ -44,6 +36,14 @@ const Home = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1.4 }}
+        >
+          <BannerLinks />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 1.6 }}
         >
           <FAQ />
         </motion.div>
