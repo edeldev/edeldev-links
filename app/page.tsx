@@ -10,7 +10,7 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="bg-bg-box-container h-auto w-auto sm:w-[550px] md:w-[650px] rounded-xl mx-auto p-10 relative flex justify-center"
+      className="bg-bg-box-container w-full md:max-w-2xl rounded-xl mx-auto p-10 relative flex justify-center"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}
